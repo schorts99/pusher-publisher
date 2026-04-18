@@ -1,6 +1,6 @@
 {
   "name": "@schorts/pusher-publisher",
-  "version": "1.1.0",
+  "version": "2.0.0-beta.0",
   "description": "A minimal, type-safe wrapper for dispatching real-time events via Pusher Channels, designed to integrate seamlessly with the Publisher interface from `@schorts/shared-kernel`. This abstraction enables clean separation of concerns between event publishing and transport logic, making it easy to swap or extend real-time infrastructure.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -49,7 +49,7 @@
   },
   "homepage": "https://github.com/schorts99/pusher-publisher#readme",
   "dependencies": {
-    "@schorts/shared-kernel": "^3.1.0",
-    "pusher": "^5.2.0"
+    "@schorts/shared-kernel": "^9.0.0-beta.10",
+    "pusher": "^5.3.3"
   }
 }

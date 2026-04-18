@@ -1,6 +1,5 @@
-import Pusher, { type AuthResponse } from "pusher";
+import Pusher, { type ChannelAuthResponse } from "pusher";
 
 export { PusherPublisher } from "./pusher-publisher";
 export { Pusher };
-export type { AuthResponse };
-
+export type { ChannelAuthResponse };
